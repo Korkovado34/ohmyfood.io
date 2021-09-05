@@ -1,0 +1,495 @@
+@media (min-width: 1168px)
+{
+	body
+	{
+		background-color:#ffffff;
+	}
+
+	html, body
+	{
+		margin:0;
+		padding:0;
+	}
+
+	.banniere
+	{
+		padding-top:10px;
+		padding-bottom:10px;
+	}
+
+	#logo
+	{
+		font-size:4em;
+		width:350px;
+	}
+
+	.menus-box
+	{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		width:1000px;
+		-ms-flex-line-pack:center;
+		align-content:center;
+	}
+
+	#titremenu1, #titremenu2, #titremenu3, #titremenu4
+	{
+		font-size:1.5em;
+	}
+
+	.menu-note
+	{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-pack:center;
+		-ms-flex-pack:center;
+		justify-content:center;
+		-webkit-box-align:center;
+		-ms-flex-align:center;
+		align-items:center;
+		width:440px;
+		height:540px;
+	}
+
+	.btn1:hover
+	{
+		-webkit-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+		transform: scale(1.5);
+	}
+
+	.menu-chics
+	{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-pack:center;
+		-ms-flex-pack:center;
+		justify-content:center;
+		-webkit-box-align:center;
+		-ms-flex-align:center;
+		align-items:center;
+		width:440px;
+		height:540px;
+	}
+
+	.btn2:hover
+	{
+		-webkit-transform: scale(1.4);
+		-ms-transform: scale(1.4);
+		transform: scale(1.4);
+	}
+
+	.menu-delices
+	{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-pack:center;
+		-ms-flex-pack:center;
+		justify-content:center;
+		-webkit-box-align:center;
+		-ms-flex-align:center;
+		align-items:center;
+		width:440px;
+		height:540px;
+	}
+
+	.btn3:hover
+	{
+		-webkit-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+		transform: scale(1.5);
+	}
+
+	.menu-gout
+	{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-pack:center;
+		-ms-flex-pack:center;
+		justify-content:center;
+		-webkit-box-align:center;
+		-ms-flex-align:center;
+		align-items:center;
+		width:440px;
+		height:540px;
+	}
+
+	.btn4:hover
+	{
+		-webkit-transform: scale(1.5);
+		-ms-transform: scale(1.5);
+		transform: scale(1.5);
+	}
+
+	.btn-soon
+	{
+		width:350px;
+		padding-top:10px;
+		padding-bottom:24px;
+		font-size:1.6em;
+	}
+
+	#pied-page
+	{
+		padding-top:30px;
+		padding-bottom:30px;
+		padding-left:20px;
+		padding-right:20px;
+	}
+
+	#mlegales
+	{
+		font-size:1.6em;
+	}
+
+	#contact
+	{
+		font-size:1.6em;
+	}
+
+
+
+	/*----------------------Page menu note.html---------------------*/
+	#conteneur
+	{
+		width:100%;
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-ms-flex-wrap:wrap;
+		flex-wrap:wrap;
+	}
+
+	$color-primary: #579c87;
+	.header
+	{
+		width:100%;
+		background-color:$color-primary;
+		text-align:center;
+		padding-top:10px;
+		padding-bottom:10px;
+		-webkit-box-sizing:border-box;
+		box-sizing:border-box;
+		margin-bottom:20px;
+	}
+
+	.banniere
+	{
+		width:100%;
+		background-color: $color-primary;
+		text-align:center;
+		margin-bottom:20px;
+	}
+
+	.les-menus
+	{
+		width:80%;
+		margin:auto;
+	}
+
+	.conteneur-menus1, .conteneur-menus2
+	{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		width:100%;
+	}
+
+	.menus-note2
+	{
+		width:80%;
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-ms-flex-wrap:wrap;
+		flex-wrap:wrap;
+		margin:auto;
+	}
+
+	.icon-trait
+	{
+		display:inline-block;
+		margin-top:10px;
+		margin-left:10px;
+		margin-right:10px;
+		width:30%;
+		vertical-align:baseline;
+	}
+
+	.titremenu1
+	{
+		font-family: Devonshire;
+		color: #000000;
+		font-size:3em;
+		text-align:center;
+		margin-bottom:80px;
+		text-decoration:none;
+	}
+
+	.menu-note2
+	{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-ms-flex-direction:column;
+		flex-direction:column;
+		background-color: #fcdfdb;
+		width:80%;
+		padding-left:6px;
+		padding-right:6px;
+		font-family: Devonshire;
+		color: #000000;
+		margin:auto;
+	}
+
+	.titres-traits
+	{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-orient:horizontal;
+		-webkit-box-direction:normal;
+		    -ms-flex-direction:row;
+		        flex-direction:row;
+		-webkit-box-pack:justify;
+		-ms-flex-pack:justify;
+		justify-content:space-between;
+	}
+
+	#icon-note2
+	{
+		margin-top:30px;
+		margin-right:8px;
+		font-size:4em;
+	}
+
+	.titremenu1-bis
+	{
+		font-family: Devonshire;
+		color: #000000;
+		font-size:4em;
+		text-align:center;
+		margin-left:10px;
+		margin-bottom:80px;
+		text-decoration:none;
+	}
+
+	.basdepage
+	{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-orient:horizontal;
+		-webkit-box-direction:normal;
+		-ms-flex-direction:row;
+		flex-direction:row;
+		-webkit-box-pack:center;
+		-ms-flex-pack:center;
+		justify-content:center;
+		-webkit-box-align:center;
+		-ms-flex-align:center;
+		align-items:center;
+	}
+
+	.enchantee_page
+	{
+		font-size:3em;
+	}
+
+	.col-right
+	{
+		font-size:2em;
+		width:3%;
+	}
+
+	.col-left
+	{
+		font-size:2em;
+		width:100%;
+	}
+
+	.btn-soon
+	{
+		margin-top:20px;
+	}
+
+	/*-----------------------Page menu-chics.html------------------------*/
+	$color-primary: #579c87;
+	.banniere
+	{
+		width:100%;
+		background-color: $color-primary;
+		text-align:center;
+		margin-bottom:20px;
+	}
+
+	.menus-chics2
+	{
+		padding-left:10px;
+		padding-right:30px;
+	}
+
+	.alafrançaise
+	{
+		font-size:3em;
+	}
+
+	.titre-chics, .les-plats-chics, .les-plats-chics2, .les-plats-chics3
+	{
+		font-size:4em;
+	}
+
+	/*----------------------Page menu délices.html----------------------*/
+
+
+  p
+	{
+		font-size:1.5em;
+	}
+
+
+
+  .box-delices
+	{
+		width:94%;
+		margin:auto;
+	}
+
+
+	.titre-menu-delices
+	{
+		font-size:3em;
+	}
+
+	.les-plats-delices
+	{
+		font-size:6em;
+	}
+
+
+
+	/*-------------------------Page menus gouts.html---------------------*/
+	$pol-gout: 'Kaushan Script', cursive;
+
+
+	#conteneur-gouts
+	{
+		width:100%;
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-ms-flex-wrap:wrap;
+		flex-wrap:wrap;
+		-webkit-box-pack:center;
+		-ms-flex-pack:center;
+		justify-content:center;
+	}
+
+	.box-chics
+	{
+		width:100%;
+	}
+
+	.col-left, .col-right
+	{
+		display:flex;
+	}
+
+	.menus-gouts2
+	{
+		width:80%;
+		margin:auto;
+	}
+
+	.icon-titre-traits
+	{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-orient:horizontal;
+		-webkit-box-direction:normal;
+		-ms-flex-direction:row;
+		flex-direction:row;
+		width:100%;
+		font-size:0.5em;
+		-webkit-box-pack:center;
+		-ms-flex-pack:center;
+		justify-content:center;
+		-webkit-box-align:center;
+		-ms-flex-align:center;
+		align-items:center;
+	}
+
+	#trait-gout, #trait-gout2, #trait-gout3, #trait-gout4,#trait-gout5, #trait-gout6
+	{
+		width:300px;
+	}
+
+	#les-plats-gouts1, #les-plats-gouts2, #les-plats-gouts3
+	{
+		font-size:5em;
+	}
+
+	.titre-menu-gout
+	{
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-ms-flex-direction:column;
+		flex-direction:column;
+		-webkit-box-pack:center;
+		-ms-flex-pack:center;
+		justify-content:center;
+		-webkit-box-align:center;
+		-ms-flex-align:center;
+		align-items:center;
+		width:100%;
+		h2
+		{
+			font-family: $pol-gout;
+			font-size:8em;
+			background: -o-linear-gradient(285deg, rgba(61,146,58,1) 16%, rgba(190,255,127,1) 82%);
+			background: linear-gradient(165deg, rgba(61,146,58,1) 16%, rgba(190,255,127,1) 82%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			letter-spacing: 1px;
+			margin-bottom: 60px;
+		}
+	}
+
+	.col-left, .col-right
+	{
+		font-size:1.4em;
+	}
+
+	/*---------------------Page mentions légales.html--------------------*/
+	#scroll-ml
+	{
+		display: block;
+		width: 830px;
+		height: 720px;
+		overflow-y: scroll;
+		scroll-behavior: smooth;
+	}
+
+	#mlegales
+	{
+		font-size:2em;
+	}
+
+	#contact
+	{
+		font-size:2em;
+	}
+}
